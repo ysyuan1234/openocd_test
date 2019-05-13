@@ -1,0 +1,190 @@
+
+test_asm.exe:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text.startup:
+
+80000000 <main>:
+80000000:	00003025 	move	a2,zero
+80000004:	3c060001 	lui	a2,0x1
+80000008:	00002025 	move	a0,zero
+8000000c:	3c040001 	lui	a0,0x1
+80000010:	00002825 	move	a1,zero
+80000014:	3c050001 	lui	a1,0x1
+80000018:	00001025 	move	v0,zero
+8000001c:	3c021010 	lui	v0,0x1010
+80000020:	3c038000 	lui	v1,0x8000
+80000024:	24671000 	addiu	a3,v1,4096
+80000028:	ace20000 	sw	v0,0(a3)
+8000002c:	3c02a0a0 	lui	v0,0xa0a0
+80000030:	8ce20000 	lw	v0,0(a3)
+80000034:	3c021010 	lui	v0,0x1010
+80000038:	24631008 	addiu	v1,v1,4104
+8000003c:	ac620000 	sw	v0,0(v1)
+80000040:	00853021 	addu	a2,a0,a1
+80000044:	00a22021 	addu	a0,a1,v0
+80000048:	00001025 	move	v0,zero
+8000004c:	3c020001 	lui	v0,0x1
+80000050:	1000fffe 	b	8000004c <main+0x4c>
+80000054:	00001025 	move	v0,zero
+80000058:	03e00008 	jr	ra
+8000005c:	00000000 	nop
+
+Disassembly of section .MIPS.abiflags:
+
+80000060 <.MIPS.abiflags>:
+80000060:	01200000 	0x1200000
+80000064:	01000101 	0x1000101
+	...
+80000070:	00000001 	movf	zero,zero,$fcc0
+80000074:	00000000 	nop
+
+Disassembly of section .reginfo:
+
+00000000 <.reginfo>:
+   0:	80000000 	lb	zero,0(zero)
+	...
+  14:	80000878 	lb	zero,2168(zero)
+
+Disassembly of section .pdr:
+
+00000000 <.pdr>:
+   0:	80000000 	lb	zero,0(zero)
+	...
+  18:	0000001d 	0x1d
+  1c:	0000001f 	0x1f
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	3a434347 	xori	v1,s2,0x4347
+   4:	6e492820 	0x6e492820
+   8:	696e6567 	0x696e6567
+   c:	30322063 	andi	s2,at,0x2063
+  10:	302e3631 	andi	t6,at,0x3631
+  14:	35202933 	ori	zero,t1,0x2933
+  18:	302e322e 	andi	t6,at,0x322e
+	...
+
+Disassembly of section .gnu.attributes:
+
+00000000 <.gnu.attributes>:
+   0:	00000f41 	0xf41
+   4:	756e6700 	jalx	5b99c00 <main-0x7a466400>
+   8:	00070100 	sll	zero,a3,0x4
+   c:	01040000 	0x1040000
+
+Disassembly of section .debug_info:
+
+00000000 <.debug_info>:
+   0:	00000033 	tltu	zero,zero
+   4:	00000004 	sllv	zero,zero,zero
+   8:	01040000 	0x1040000
+   c:	0000002e 	0x2e
+  10:	0000230c 	syscall	0x8c
+	...
+  24:	00590200 	0x590200
+  28:	01010000 	0x1010000
+  2c:	80000000 	lb	zero,0(zero)
+  30:	00000060 	0x60
+  34:	Address 0x0000000000000034 is out of bounds.
+
+
+Disassembly of section .debug_abbrev:
+
+00000000 <.debug_abbrev>:
+   0:	25011101 	addiu	at,t0,4353
+   4:	030b130e 	0x30b130e
+   8:	550e1b0e 	bnel	t0,t6,6c44 <main-0x7fff93bc>
+   c:	10011117 	beq	zero,at,446c <main-0x7fffbb94>
+  10:	02000017 	0x2000017
+  14:	193f002e 	0x193f002e
+  18:	0b3a0e03 	j	ce8380c <main-0x7317c7f4>
+  1c:	01110b3b 	0x1110b3b
+  20:	18400612 	blez	v0,186c <main-0x7fffe794>
+  24:	00194297 	0x194297
+	...
+
+Disassembly of section .debug_aranges:
+
+00000000 <.debug_aranges>:
+   0:	0000001c 	0x1c
+   4:	00000002 	srl	zero,zero,0x0
+   8:	00040000 	sll	zero,a0,0x0
+   c:	00000000 	nop
+  10:	80000000 	lb	zero,0(zero)
+  14:	00000060 	0x60
+	...
+
+Disassembly of section .debug_ranges:
+
+00000000 <.debug_ranges>:
+   0:	80000000 	lb	zero,0(zero)
+   4:	80000060 	lb	zero,96(zero)
+	...
+
+Disassembly of section .debug_line:
+
+00000000 <.debug_line>:
+   0:	0000004a 	0x4a
+   4:	00210002 	ror	zero,at,0x0
+   8:	01010000 	0x1010000
+   c:	000d0efb 	0xd0efb
+  10:	01010101 	0x1010101
+  14:	01000000 	0x1000000
+  18:	00010000 	sll	zero,at,0x0
+  1c:	74736574 	jalx	1cd95d0 <main-0x7e326a30>
+  20:	6d73615f 	0x6d73615f
+  24:	0000632e 	0x632e
+  28:	00000000 	nop
+  2c:	00000205 	0x205
+  30:	4b018000 	c2	0x1018000
+  34:	4b4b4b4b 	c2	0x14b4b4b
+  38:	4b4b4b4b 	c2	0x14b4b4b
+  3c:	4b4b4b4b 	c2	0x14b4b4b
+  40:	4b4b4b4b 	c2	0x14b4b4b
+  44:	4b4b4b4b 	c2	0x14b4b4b
+  48:	0008024b 	0x8024b
+  4c:	Address 0x000000000000004c is out of bounds.
+
+
+Disassembly of section .debug_str:
+
+00000000 <.debug_str>:
+   0:	6d6f682f 	0x6d6f682f
+   4:	75672f65 	jalx	59cbd94 <main-0x7a63426c>
+   8:	2f747365 	sltiu	s4,k1,29541
+   c:	75797379 	jalx	5e5cde4 <main-0x7a1a321c>
+  10:	772f6e61 	jalx	cbdb984 <main-0x7342467c>
+  14:	2f6b726f 	sltiu	t3,k1,29295
+  18:	65736163 	0x65736163
+  1c:	7361632f 	0x7361632f
+  20:	74003165 	jalx	c594 <main-0x7fff3a6c>
+  24:	5f747365 	0x5f747365
+  28:	2e6d7361 	sltiu	t5,s3,29537
+  2c:	4e470063 	c3	0x470063
+  30:	31432055 	andi	v1,t2,0x2055
+  34:	2e352031 	sltiu	s5,s1,8241
+  38:	20302e32 	addi	s0,at,11826
+  3c:	6c656d2d 	0x6c656d2d
+  40:	696d2d20 	0x696d2d20
+  44:	32337370 	andi	s3,s1,0x7370
+  48:	616d2d20 	0x616d2d20
+  4c:	333d6962 	andi	sp,t9,0x6962
+  50:	672d2032 	0x672d2032
+  54:	324f2d20 	andi	t7,s2,0x2d20
+  58:	69616d00 	0x69616d00
+  5c:	Address 0x000000000000005c is out of bounds.
+
+
+Disassembly of section .debug_frame:
+
+00000000 <.debug_frame>:
+   0:	0000000c 	syscall
+   4:	ffffffff 	sdc3	$31,-1(ra)
+   8:	7c010001 	0x7c010001
+   c:	001d0d1f 	0x1d0d1f
+  10:	0000000c 	syscall
+  14:	00000000 	nop
+  18:	80000000 	lb	zero,0(zero)
+  1c:	00000060 	0x60

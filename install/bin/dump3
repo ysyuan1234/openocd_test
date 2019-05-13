@@ -1,0 +1,1776 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debug: 8094 796254 gdb_server.c:2813 gdb_input_inner(): received packet: 's'
+Debug: 8095 796254 target.c:1517 target_call_event_callbacks(): target event 5 (gdb-start)
+Debug: 8096 796254 gdb_server.c:1554 gdb_step_continue_packet(): -
+Debug: 8097 796254 gdb_server.c:1567 gdb_step_continue_packet(): step
+Debug: 8098 796254 mips32.c:277 mips32_restore_context(): mips32_restore_context
+Debug: 8099 796254 mips32_pracc.c:828 mips32_pracc_write_regs(): depc::::::0x8000003c
+Debug: 8100 796254 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8101 796254 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8102 796254 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:68
+Debug: 8103 796254 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8104 796255 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8105 796255 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8106 796257 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8107 796258 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8108 796258 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8109 796259 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8110 796260 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8111 796260 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8112 796260 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8113 796261 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8114 796261 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8115 796262 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8116 796262 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8117 796263 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8118 796263 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8119 796264 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8120 796264 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200220
+Debug: 8121 796264 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8122 796265 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200224
+Debug: 8123 796265 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8124 796267 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200228
+Debug: 8125 796267 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8126 796268 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20022c
+Debug: 8127 796268 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8128 796269 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200230
+Debug: 8129 796269 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8130 796270 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200234
+Debug: 8131 796270 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8132 796271 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200238
+Debug: 8133 796271 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8134 796272 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20023c
+Debug: 8135 796273 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8136 796275 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200240
+Debug: 8137 796275 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8138 796276 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200244
+Debug: 8139 796276 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8140 796277 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200248
+Debug: 8141 796277 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8142 796278 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20024c
+Debug: 8143 796278 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8144 796279 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200250
+Debug: 8145 796279 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8146 796280 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200254
+Debug: 8147 796280 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8148 796280 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200258
+Debug: 8149 796281 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8150 796282 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20025c
+Debug: 8151 796282 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8152 796283 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200260
+Debug: 8153 796283 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8154 796284 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200264
+Debug: 8155 796284 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8156 796284 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200268
+Debug: 8157 796284 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8158 796285 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20026c
+Debug: 8159 796285 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8160 796286 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200270
+Debug: 8161 796287 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8162 796287 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200274
+Debug: 8163 796287 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8164 796291 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200278
+Debug: 8165 796291 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8166 796292 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20027c
+Debug: 8167 796292 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8168 796293 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200280
+Debug: 8169 796293 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8170 796294 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200284
+Debug: 8171 796294 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8172 796295 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200288
+Debug: 8173 796295 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8174 796296 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20028c
+Debug: 8175 796296 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8176 796296 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200290
+Debug: 8177 796297 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8178 796297 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200294
+Debug: 8179 796297 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8180 796298 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200298
+Debug: 8181 796298 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8182 796299 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20029c
+Debug: 8183 796299 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8184 796300 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a0
+Debug: 8185 796300 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8186 796301 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a4
+Debug: 8187 796301 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8188 796302 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a8
+Debug: 8189 796302 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8190 796303 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002ac
+Debug: 8191 796303 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8192 796304 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b0
+Debug: 8193 796304 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8194 796306 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b4
+Debug: 8195 796306 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8196 796308 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b8
+Debug: 8197 796308 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8198 796309 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002bc
+Debug: 8199 796309 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8200 796310 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c0
+Debug: 8201 796310 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8202 796311 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c4
+Debug: 8203 796311 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8204 796312 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c8
+Debug: 8205 796312 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8206 796313 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002cc
+Debug: 8207 796313 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8208 796313 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d0
+Debug: 8209 796314 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8210 796314 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d4
+Debug: 8211 796314 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8212 796315 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d8
+Debug: 8213 796315 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8214 796316 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002dc
+Debug: 8215 796317 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8216 796317 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002e0
+Debug: 8217 796317 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8218 796318 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002e4
+Debug: 8219 796318 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8220 796319 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002e8
+Debug: 8221 796319 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8222 796320 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002ec
+Debug: 8223 796320 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8224 796321 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002f0
+Debug: 8225 796321 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8226 796322 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002f4
+Debug: 8227 796322 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8228 796323 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002f8
+Debug: 8229 796323 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8230 796324 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002fc
+Debug: 8231 796324 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8232 796325 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200300
+Debug: 8233 796325 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8234 796326 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200304
+Debug: 8235 796326 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8236 796326 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200308
+Debug: 8237 796327 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8238 796327 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20030c
+Debug: 8239 796328 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8240 796328 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200310
+Debug: 8241 796328 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8242 796329 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200314
+Debug: 8243 796329 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8244 796330 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200318
+Debug: 8245 796330 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8246 796331 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20031c
+Debug: 8247 796331 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8248 796332 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000048
+Debug: 8249 796332 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000044
+Debug: 8250 796332 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 8251 796332 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8252 796332 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8253 796332 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:6
+Debug: 8254 796332 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8255 796333 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8256 796333 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8257 796334 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8258 796334 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8259 796335 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8260 796336 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8261 796336 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8262 796336 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8263 796337 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8264 796337 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8265 796338 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8266 796339 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8267 796339 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8268 796339 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8269 796341 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8270 796343 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8271 796344 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 8272 796344 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000006
+Debug: 8273 796344 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 8274 796344 target.c:1517 target_call_event_callbacks(): target event 2 (resumed)
+Debug: 8275 796344 mips_m4k.c:1043 mips_m4k_read_memory(): address: 0xff300000, size: 0x00000004, count: 0x00000001
+Debug: 8276 796344 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8277 796344 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8278 796344 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:9
+Debug: 8279 796344 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8280 796345 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8281 796345 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8282 796346 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8283 796346 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8284 796347 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8285 796347 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8286 796348 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8287 796348 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8288 796348 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8289 796348 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202000
+Debug: 8290 796348 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 8291 796349 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8292 796349 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8293 796349 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8294 796350 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8295 796350 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8296 796351 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8297 796351 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8298 796352 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00034001
+Debug: 8299 796352 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 8300 796352 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8301 796353 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200220
+Debug: 8302 796353 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8303 796354 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200224
+Debug: 8304 796354 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8305 796355 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200228
+Debug: 8306 796355 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8307 796356 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20022c
+Debug: 8308 796356 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8309 796357 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200230
+Debug: 8310 796357 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8311 796359 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200234
+Debug: 8312 796359 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8313 796366 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200238
+Debug: 8314 796366 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8315 796367 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20023c
+Debug: 8316 796369 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8317 796371 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000010
+Debug: 8318 796371 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000009
+Debug: 8319 796371 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 8320 796371 target.c:2241 target_read_u32(): address: 0xff300000, value: 0x00034001
+Debug: 8321 796371 mips_ejtag.c:322 mips_ejtag_exit_debug(): exit debug
+Debug: 8322 796371 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8323 796371 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8324 796372 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:1
+Debug: 8325 796372 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8326 796372 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8327 796372 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8328 796373 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8329 796374 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8330 796374 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8331 796375 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8332 796375 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8333 796376 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8334 796377 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8335 796377 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8336 796378 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8337 796379 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8338 796379 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8339 796380 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8340 796380 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8341 796381 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 8342 796382 mips32_pracc.c:297 mips32_pracc_exec(): ejtag_info->pa_addr:0xff200200 0x4000c000
+Debug: 8343 796382 mips_m4k.c:652 mips_m4k_step(): target stepped 
+Debug: 8344 796382 mips_m4k.c:653 mips_m4k_step(): 9999999
+Debug: 8345 796382 mips_m4k.c:97 mips_m4k_debug_entry(): mips_m4k_debug_entry
+Debug: 8346 796382 mips32.c:257 mips32_save_context(): mips32_save_context
+Debug: 8347 796382 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8348 796382 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8349 796383 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:49
+Debug: 8350 796383 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8351 796384 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8352 796384 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8353 796385 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8354 796385 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8355 796386 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8356 796386 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202008
+Debug: 8357 796386 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 8358 796386 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8359 796386 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8360 796386 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20200c
+Debug: 8361 796386 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:2
+Debug: 8362 796387 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8363 796387 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8364 796387 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202010
+Debug: 8365 796387 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:3
+Debug: 8366 796387 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8367 796388 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8368 796388 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202014
+Debug: 8369 796388 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:4
+Debug: 8370 796388 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8371 796389 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8372 796389 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202018
+Debug: 8373 796389 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:5
+Debug: 8374 796389 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8375 796390 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8376 796390 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20201c
+Debug: 8377 796390 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:6
+Debug: 8378 796390 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8379 796391 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00000001
+Debug: 8380 796391 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:5
+Debug: 8381 796391 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8382 796392 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200220
+Debug: 8383 796392 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202020
+Debug: 8384 796392 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:6
+Debug: 8385 796392 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8386 796393 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200224
+Debug: 8387 796393 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202024
+Debug: 8388 796393 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:7
+Debug: 8389 796393 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8390 796394 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200228
+Debug: 8391 796394 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202028
+Debug: 8392 796394 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:8
+Debug: 8393 796394 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8394 796394 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20022c
+Debug: 8395 796394 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20202c
+Debug: 8396 796394 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:9
+Debug: 8397 796395 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8398 796395 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200230
+Debug: 8399 796395 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202030
+Debug: 8400 796395 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:10
+Debug: 8401 796396 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8402 796396 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200234
+Debug: 8403 796396 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202034
+Debug: 8404 796396 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:11
+Debug: 8405 796396 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8406 796397 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200238
+Debug: 8407 796397 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202038
+Debug: 8408 796397 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:12
+Debug: 8409 796397 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8410 796398 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20023c
+Debug: 8411 796398 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20203c
+Debug: 8412 796398 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:13
+Debug: 8413 796398 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8414 796399 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033e38
+Debug: 8415 796399 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:12
+Debug: 8416 796399 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8417 796400 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8040cfb0
+Debug: 8418 796400 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:11
+Debug: 8419 796400 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8420 796401 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200240
+Debug: 8421 796401 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202040
+Debug: 8422 796401 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:12
+Debug: 8423 796401 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8424 796402 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200244
+Debug: 8425 796402 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202044
+Debug: 8426 796402 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:13
+Debug: 8427 796402 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8428 796403 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200248
+Debug: 8429 796403 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202048
+Debug: 8430 796403 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:14
+Debug: 8431 796403 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8432 796404 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20024c
+Debug: 8433 796404 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20204c
+Debug: 8434 796404 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:15
+Debug: 8435 796404 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8436 796405 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200250
+Debug: 8437 796405 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202050
+Debug: 8438 796405 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:16
+Debug: 8439 796405 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8440 796405 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200254
+Debug: 8441 796405 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202054
+Debug: 8442 796405 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:17
+Debug: 8443 796406 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8444 796406 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200258
+Debug: 8445 796406 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202058
+Debug: 8446 796406 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:18
+Debug: 8447 796406 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8448 796407 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20025c
+Debug: 8449 796407 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20205c
+Debug: 8450 796407 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:19
+Debug: 8451 796407 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8452 796408 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8040d230
+Debug: 8453 796408 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:18
+Debug: 8454 796409 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8455 796409 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x03bf0000
+Debug: 8456 796410 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:17
+Debug: 8457 796410 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8458 796410 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200260
+Debug: 8459 796410 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202060
+Debug: 8460 796410 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:18
+Debug: 8461 796410 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8462 796411 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200264
+Debug: 8463 796411 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202064
+Debug: 8464 796411 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:19
+Debug: 8465 796411 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8466 796412 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200268
+Debug: 8467 796412 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202068
+Debug: 8468 796412 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:20
+Debug: 8469 796412 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8470 796413 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20026c
+Debug: 8471 796413 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20206c
+Debug: 8472 796413 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:21
+Debug: 8473 796413 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8474 796414 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200270
+Debug: 8475 796414 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202070
+Debug: 8476 796414 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:22
+Debug: 8477 796414 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8478 796415 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200274
+Debug: 8479 796415 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202074
+Debug: 8480 796415 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:23
+Debug: 8481 796415 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8482 796416 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200278
+Debug: 8483 796416 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202078
+Debug: 8484 796416 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:24
+Debug: 8485 796416 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8486 796416 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20027c
+Debug: 8487 796416 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20207c
+Debug: 8488 796416 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:25
+Debug: 8489 796417 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8490 796418 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xac000000
+Debug: 8491 796418 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:24
+Debug: 8492 796418 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8493 796418 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xfc000000
+Debug: 8494 796418 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:23
+Debug: 8495 796419 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8496 796419 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200280
+Debug: 8497 796419 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8498 796420 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200284
+Debug: 8499 796420 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202080
+Debug: 8500 796420 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:24
+Debug: 8501 796420 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8502 796421 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200288
+Debug: 8503 796421 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8504 796422 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20028c
+Debug: 8505 796422 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202084
+Debug: 8506 796422 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:25
+Debug: 8507 796422 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8508 796423 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200290
+Debug: 8509 796423 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8510 796423 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200294
+Debug: 8511 796423 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202088
+Debug: 8512 796423 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:26
+Debug: 8513 796424 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8514 796424 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200298
+Debug: 8515 796424 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8516 796425 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20029c
+Debug: 8517 796425 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20208c
+Debug: 8518 796425 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:27
+Debug: 8519 796425 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8520 796426 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x03ff0000
+Debug: 8521 796426 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:26
+Debug: 8522 796426 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8523 796427 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xf8000000
+Debug: 8524 796427 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:25
+Debug: 8525 796427 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8526 796428 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a0
+Debug: 8527 796428 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8528 796429 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a4
+Debug: 8529 796429 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202090
+Debug: 8530 796429 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:26
+Debug: 8531 796429 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8532 796430 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a8
+Debug: 8533 796430 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8534 796431 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002ac
+Debug: 8535 796431 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202094
+Debug: 8536 796431 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:27
+Debug: 8537 796431 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8538 796432 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b0
+Debug: 8539 796432 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8540 796432 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b4
+Debug: 8541 796432 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202004
+Debug: 8542 796432 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:28
+Debug: 8543 796433 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8544 796433 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b8
+Debug: 8545 796433 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8546 796434 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002bc
+Debug: 8547 796434 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8548 796435 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x08000000
+Debug: 8549 796435 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:27
+Debug: 8550 796436 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8551 796436 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xac000000
+Debug: 8552 796437 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:26
+Debug: 8553 796437 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8554 796437 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c0
+Debug: 8555 796438 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8556 796438 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c4
+Debug: 8557 796439 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8558 796439 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c8
+Debug: 8559 796439 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8560 796440 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002cc
+Debug: 8561 796441 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8562 796441 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d0
+Debug: 8563 796441 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8564 796442 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d4
+Debug: 8565 796442 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8566 796443 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d8
+Debug: 8567 796443 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8568 796444 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002dc
+Debug: 8569 796444 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8570 796445 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x03bf0000
+Debug: 8571 796445 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:25
+Debug: 8572 796445 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8573 796446 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x03bd0000
+Debug: 8574 796446 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:24
+Debug: 8575 796446 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8576 796447 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000038
+Debug: 8577 796447 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000031
+Debug: 8578 796447 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8579 796448 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8580 796449 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8581 796449 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8582 796450 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8583 796451 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8584 796452 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8585 796453 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8586 796454 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xbc000000
+Debug: 8587 796454 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:23
+Debug: 8588 796454 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8589 796455 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8040cfb0
+Debug: 8590 796455 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:22
+Debug: 8591 796455 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8592 796456 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8593 796456 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8594 796457 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8595 796458 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8596 796459 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8597 796460 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8598 796461 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8599 796462 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8600 796463 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8040d230
+Debug: 8601 796463 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:21
+Debug: 8602 796463 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8603 796464 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033ccc
+Debug: 8604 796464 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:20
+Debug: 8605 796464 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8606 796465 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8607 796465 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8608 796466 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8609 796467 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8610 796468 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8611 796469 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8612 796469 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8613 796471 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8614 796472 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033cc8
+Debug: 8615 796472 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:19
+Debug: 8616 796472 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8617 796473 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00000001
+Debug: 8618 796473 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:18
+Debug: 8619 796473 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8620 796474 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8621 796475 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8622 796476 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8623 796476 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8624 796477 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8625 796478 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8626 796479 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8627 796480 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8628 796481 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80590000
+Debug: 8629 796481 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:17
+Debug: 8630 796481 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8631 796482 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80545b34
+Debug: 8632 796482 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:16
+Debug: 8633 796482 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8634 796483 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8635 796484 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8636 796485 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8637 796485 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8638 796486 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8639 796487 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8640 796488 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8641 796489 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8642 796490 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x807e2cd0
+Debug: 8643 796490 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:15
+Debug: 8644 796490 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8645 796491 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x24000000
+Debug: 8646 796491 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:14
+Debug: 8647 796491 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8648 796492 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80072990
+Debug: 8649 796492 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:13
+Debug: 8650 796492 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8651 796493 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033df8
+Debug: 8652 796493 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:12
+Debug: 8653 796493 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8654 796494 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033df8
+Debug: 8655 796494 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:11
+Debug: 8656 796494 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8657 796495 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8658 796496 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8659 796496 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8660 796497 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8661 796498 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8662 796499 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8663 796500 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8664 796501 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8665 796502 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c032000
+Debug: 8666 796502 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:10
+Debug: 8667 796502 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8668 796503 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033b90
+Debug: 8669 796503 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:9
+Debug: 8670 796503 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8671 796504 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033b90
+Debug: 8672 796504 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:8
+Debug: 8673 796504 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8674 796505 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8675 796505 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8676 796506 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8677 796507 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8678 796508 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8679 796509 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8680 796510 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8681 796511 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8682 796512 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8005a5ac
+Debug: 8683 796512 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:7
+Debug: 8684 796512 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8685 796513 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x14001c00
+Debug: 8686 796513 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:6
+Debug: 8687 796513 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8688 796514 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8689 796514 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8690 796515 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8691 796516 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8692 796517 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8693 796518 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8694 796519 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8695 796519 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8696 796520 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00000011
+Debug: 8697 796520 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:5
+Debug: 8698 796521 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8699 796521 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00000009
+Debug: 8700 796521 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:4
+Debug: 8701 796521 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8702 796522 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8703 796523 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8704 796524 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8705 796525 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8706 796526 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8707 796526 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8708 796527 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8709 796528 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8710 796529 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00000000
+Debug: 8711 796529 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:3
+Debug: 8712 796529 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8713 796530 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x08801000
+Debug: 8714 796530 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:2
+Debug: 8715 796530 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8716 796531 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8717 796532 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8718 796533 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8719 796534 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8720 796534 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8721 796535 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8722 796536 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8723 796537 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8724 796538 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80000040
+Debug: 8725 796538 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:1
+Debug: 8726 796538 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8727 796539 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80022764
+Debug: 8728 796539 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 8729 796539 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8730 796547 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 8731 796548 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8732 796548 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8733 796548 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:7
+Debug: 8734 796548 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8735 796549 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8736 796549 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8737 796549 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8738 796550 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8739 796550 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8740 796550 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8741 796551 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8742 796551 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8743 796552 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8744 796552 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8745 796553 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8746 796553 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8747 796554 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8748 796554 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8749 796555 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8750 796555 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8751 796556 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 8752 796556 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000007
+Debug: 8753 796556 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 8754 796556 mips_m4k.c:120 mips_m4k_debug_entry(): entered debug state at PC 0x80000040, target->state: halted, target->reason: 4 target->coreid: 0
+Debug: 8755 796556 target.c:1517 target_call_event_callbacks(): target event 0 (gdb-halt)
+Debug: 8756 796556 target.c:1517 target_call_event_callbacks(): target event 1 (halted)
+Debug: 8757 796556 target.c:1517 target_call_event_callbacks(): target event 6 (gdb-end)
+Debug: 8758 796557 gdb_server.c:2813 gdb_input_inner(): received packet: 'g'
+Debug: 8759 796557 mips32.c:240 mips32_get_gdb_reg_list(): mips32_get_gdb_reg_list
+Debug: 8760 796557 gdb_server.c:2813 gdb_input_inner(): received packet: 'm80000040,4'
+Debug: 8761 796557 gdb_server.c:1356 gdb_read_memory_packet(): *************gdb_read_memory_packet
+Debug: 8762 796557 gdb_server.c:1387 gdb_read_memory_packet(): addr: 0x80000040, len: 0x00000004
+Debug: 8763 796558 target.c:2092 target_read_buffer(): reading buffer of 4 byte at 0x80000040
+Debug: 8764 796558 mips_m4k.c:1043 mips_m4k_read_memory(): address: 0x80000040, size: 0x00000004, count: 0x00000001
+Debug: 8765 796558 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8766 796558 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8767 796558 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:9
+Debug: 8768 796558 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8769 796558 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8770 796559 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8771 796559 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8772 796559 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8773 796560 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8774 796560 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8775 796561 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8776 796561 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8777 796562 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8778 796562 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202000
+Debug: 8779 796562 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 8780 796562 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8781 796563 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8782 796563 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8783 796564 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8784 796564 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8785 796565 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8786 796565 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8787 796566 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xafc20004
+Debug: 8788 796566 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 8789 796566 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8790 796566 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200220
+Debug: 8791 796567 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8792 796567 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200224
+Debug: 8793 796567 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8794 796568 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200228
+Debug: 8795 796568 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8796 796569 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20022c
+Debug: 8797 796569 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8798 796570 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200230
+Debug: 8799 796570 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8800 796571 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200234
+Debug: 8801 796571 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8802 796572 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200238
+Debug: 8803 796572 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8804 796573 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20023c
+Debug: 8805 796573 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8806 796574 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000010
+Debug: 8807 796574 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000009
+Debug: 8808 796574 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 8809 796574 gdb_server.c:2813 gdb_input_inner(): received packet: 'Z0,8000003c,4'
+Debug: 8810 796574 gdb_server.c:1586 gdb_breakpoint_watchpoint_packet(): -
+Debug: 8811 796574 breakpoints.c:234 breakpoint_add(): add software breakpoint
+Debug: 8812 796574 breakpoints.c:50 breakpoint_add_internal(): breakpoint_add_internal
+Debug: 8813 796574 breakpoints.c:57 breakpoint_add_internal(): breakpoint_add_internal coreid: 0
+Debug: 8814 796574 mips_m4k.c:848 mips_m4k_add_breakpoint(): mips_m4k_add_breakpoint
+Debug: 8815 796574 mips_m4k.c:680 mips_m4k_set_breakpoint(): 888888888888mips_m4k_set_breakpoint
+Debug: 8816 796574 mips_m4k.c:721 mips_m4k_set_breakpoint(): bpid: 1
+Debug: 8817 796574 mips_m4k.c:724 mips_m4k_set_breakpoint(): **************************read_mem address: 0x8000003c
+Debug: 8818 796574 mips_m4k.c:1043 mips_m4k_read_memory(): address: 0x8000003c, size: 0x00000004, count: 0x00000001
+Debug: 8819 796574 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8820 796574 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8821 796574 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:9
+Debug: 8822 796574 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8823 796575 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8824 796575 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8825 796576 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8826 796576 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8827 796577 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8828 796577 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8829 796578 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8830 796578 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8831 796578 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8832 796579 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202000
+Debug: 8833 796579 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 8834 796579 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8835 796579 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8836 796580 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8837 796580 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8838 796581 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8839 796581 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8840 796581 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8841 796583 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x24020001
+Debug: 8842 796583 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 8843 796583 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8844 796584 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200220
+Debug: 8845 796584 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8846 796584 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200224
+Debug: 8847 796585 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8848 796585 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200228
+Debug: 8849 796585 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8850 796586 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20022c
+Debug: 8851 796586 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8852 796587 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200230
+Debug: 8853 796587 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8854 796588 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200234
+Debug: 8855 796588 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8856 796589 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200238
+Debug: 8857 796589 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8858 796590 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20023c
+Debug: 8859 796590 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8860 796591 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000010
+Debug: 8861 796591 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000009
+Debug: 8862 796591 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 8863 796591 mips_m4k.c:729 mips_m4k_set_breakpoint(): *************************************3333333333333333333333333
+Debug: 8864 796591 target.c:2329 target_write_u32(): address: 0x8000003c, value: 0x7000003f
+Debug: 8865 796591 mips_m4k.c:1102 mips_m4k_write_memory(): address: 0x8000003c, size: 0x00000004, count: 0x00000001
+Debug: 8866 796591 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8867 796591 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8868 796591 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:8
+Debug: 8869 796591 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8870 796592 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8871 796592 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8872 796593 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8873 796593 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8874 796594 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8875 796594 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8876 796594 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8877 796595 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8878 796595 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8879 796595 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8880 796596 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8881 796596 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8882 796597 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8883 796597 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8884 796598 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8885 796598 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8886 796599 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 8887 796599 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000008
+Debug: 8888 796599 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 8889 796599 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8890 796599 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8891 796599 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:7
+Debug: 8892 796599 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8893 796600 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8894 796600 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8895 796601 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8896 796601 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8897 796602 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8898 796602 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202000
+Debug: 8899 796602 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 8900 796602 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8901 796602 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8902 796603 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8903 796603 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8904 796603 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8905 796604 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8906 796604 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8907 796605 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8908 796605 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8909 796606 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8910 796606 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8911 796607 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80000603
+Debug: 8912 796607 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 8913 796607 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8914 796608 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 8915 796608 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000007
+Debug: 8916 796608 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 8917 796608 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8918 796608 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8919 796608 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:7
+Debug: 8920 796608 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8921 796609 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8922 796609 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8923 796610 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8924 796610 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8925 796611 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8926 796611 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202000
+Debug: 8927 796611 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 8928 796611 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8929 796612 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8930 796612 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8931 796612 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8932 796613 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8933 796613 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8934 796613 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8935 796614 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8936 796614 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8937 796616 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8938 796616 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8939 796617 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xbe6733db
+Debug: 8940 796617 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 8941 796617 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8942 796618 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 8943 796618 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000007
+Debug: 8944 796618 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 8945 796618 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8946 796618 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8947 796618 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:8
+Debug: 8948 796618 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8949 796619 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8950 796619 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8951 796620 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8952 796620 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8953 796620 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8954 796621 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8955 796621 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8956 796621 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8957 796622 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8958 796622 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8959 796623 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8960 796623 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8961 796624 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8962 796624 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8963 796625 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8964 796625 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8965 796626 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 8966 796626 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000008
+Debug: 8967 796626 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 8968 796626 mips_m4k.c:731 mips_m4k_set_breakpoint(): add software breakpoint 4 at address:: 0x8000003c
+Debug: 8969 796626 mips_m4k.c:1043 mips_m4k_read_memory(): address: 0x8000003c, size: 0x00000004, count: 0x00000001
+Debug: 8970 796626 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 8971 796626 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 8972 796626 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:9
+Debug: 8973 796626 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8974 796627 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 8975 796627 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8976 796628 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 8977 796628 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8978 796628 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 8979 796629 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8980 796629 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 8981 796629 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8982 796630 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 8983 796630 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202000
+Debug: 8984 796630 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 8985 796630 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8986 796631 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 8987 796631 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8988 796632 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 8989 796632 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8990 796633 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 8991 796633 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8992 796634 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x7000003f
+Debug: 8993 796634 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 8994 796634 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8995 796635 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200220
+Debug: 8996 796635 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8997 796636 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200224
+Debug: 8998 796636 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 8999 796636 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200228
+Debug: 9000 796637 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9001 796637 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20022c
+Debug: 9002 796638 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9003 796638 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200230
+Debug: 9004 796638 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9005 796639 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200234
+Debug: 9006 796639 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9007 796640 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200238
+Debug: 9008 796640 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9009 796641 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20023c
+Debug: 9010 796641 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9011 796642 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000010
+Debug: 9012 796642 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000009
+Debug: 9013 796642 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 9014 796642 target.c:2241 target_read_u32(): address: 0x8000003c, value: 0x7000003f
+Debug: 9015 796642 breakpoints.c:107 breakpoint_add_internal(): added software breakpoint at 0x8000003c of length 0x00000004, (BPID: 1)
+Debug: 9016 796642 gdb_server.c:2813 gdb_input_inner(): received packet: 'Hc0'
+Debug: 9017 796642 gdb_server.c:2813 gdb_input_inner(): received packet: 's'
+Debug: 9018 796642 target.c:1517 target_call_event_callbacks(): target event 5 (gdb-start)
+Debug: 9019 796642 gdb_server.c:1554 gdb_step_continue_packet(): -
+Debug: 9020 796642 gdb_server.c:1567 gdb_step_continue_packet(): step
+Debug: 9021 796642 mips32.c:277 mips32_restore_context(): mips32_restore_context
+Debug: 9022 796642 mips32_pracc.c:828 mips32_pracc_write_regs(): depc::::::0x80000040
+Debug: 9023 796642 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 9024 796642 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 9025 796642 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:68
+Debug: 9026 796642 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9027 796643 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 9028 796643 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9029 796644 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 9030 796644 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9031 796645 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 9032 796645 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9033 796646 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 9034 796646 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9035 796646 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 9036 796647 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9037 796648 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 9038 796648 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9039 796648 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 9040 796649 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9041 796649 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 9042 796649 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9043 796650 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200220
+Debug: 9044 796650 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9045 796651 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200224
+Debug: 9046 796651 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9047 796652 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200228
+Debug: 9048 796652 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9049 796653 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20022c
+Debug: 9050 796653 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9051 796654 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200230
+Debug: 9052 796654 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9053 796655 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200234
+Debug: 9054 796655 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9055 796656 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200238
+Debug: 9056 796656 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9057 796657 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20023c
+Debug: 9058 796657 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9059 796658 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200240
+Debug: 9060 796658 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9061 796658 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200244
+Debug: 9062 796659 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9063 796659 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200248
+Debug: 9064 796659 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9065 796660 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20024c
+Debug: 9066 796660 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9067 796661 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200250
+Debug: 9068 796661 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9069 796662 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200254
+Debug: 9070 796662 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9071 796663 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200258
+Debug: 9072 796663 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9073 796664 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20025c
+Debug: 9074 796664 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9075 796665 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200260
+Debug: 9076 796665 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9077 796665 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200264
+Debug: 9078 796666 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9079 796666 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200268
+Debug: 9080 796666 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9081 796667 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20026c
+Debug: 9082 796667 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9083 796668 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200270
+Debug: 9084 796668 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9085 796669 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200274
+Debug: 9086 796669 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9087 796670 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200278
+Debug: 9088 796670 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9089 796671 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20027c
+Debug: 9090 796671 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9091 796672 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200280
+Debug: 9092 796672 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9093 796672 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200284
+Debug: 9094 796673 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9095 796673 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200288
+Debug: 9096 796673 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9097 796674 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20028c
+Debug: 9098 796674 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9099 796675 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200290
+Debug: 9100 796675 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9101 796676 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200294
+Debug: 9102 796676 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9103 796677 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200298
+Debug: 9104 796677 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9105 796678 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20029c
+Debug: 9106 796678 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9107 796679 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a0
+Debug: 9108 796679 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9109 796680 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a4
+Debug: 9110 796680 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9111 796680 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a8
+Debug: 9112 796681 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9113 796681 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002ac
+Debug: 9114 796681 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9115 796682 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b0
+Debug: 9116 796682 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9117 796683 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b4
+Debug: 9118 796684 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9119 796684 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b8
+Debug: 9120 796685 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9121 796685 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002bc
+Debug: 9122 796685 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9123 796686 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c0
+Debug: 9124 796686 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9125 796687 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c4
+Debug: 9126 796688 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9127 796688 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c8
+Debug: 9128 796688 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9129 796689 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002cc
+Debug: 9130 796689 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9131 796690 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d0
+Debug: 9132 796690 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9133 796691 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d4
+Debug: 9134 796691 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9135 796692 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d8
+Debug: 9136 796692 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9137 796693 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002dc
+Debug: 9138 796693 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9139 796694 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002e0
+Debug: 9140 796694 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9141 796695 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002e4
+Debug: 9142 796695 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9143 796695 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002e8
+Debug: 9144 796696 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9145 796696 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002ec
+Debug: 9146 796696 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9147 796697 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002f0
+Debug: 9148 796697 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9149 796698 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002f4
+Debug: 9150 796698 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9151 796699 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002f8
+Debug: 9152 796699 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9153 796700 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002fc
+Debug: 9154 796700 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9155 796701 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200300
+Debug: 9156 796701 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9157 796702 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200304
+Debug: 9158 796702 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9159 796703 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200308
+Debug: 9160 796703 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9161 796704 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20030c
+Debug: 9162 796704 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9163 796705 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200310
+Debug: 9164 796705 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9165 796705 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200314
+Debug: 9166 796706 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9167 796706 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200318
+Debug: 9168 796706 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9169 796707 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20031c
+Debug: 9170 796707 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9171 796708 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000048
+Debug: 9172 796708 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000044
+Debug: 9173 796708 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 9174 796708 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 9175 796708 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 9176 796709 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:6
+Debug: 9177 796709 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9178 796709 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 9179 796709 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9180 796710 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 9181 796710 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9182 796711 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 9183 796711 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9184 796712 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 9185 796712 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9186 796713 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 9187 796713 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9188 796713 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 9189 796714 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9190 796714 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 9191 796714 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9192 796715 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 9193 796715 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9194 796716 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 9195 796716 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000006
+Debug: 9196 796716 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 9197 796716 target.c:1517 target_call_event_callbacks(): target event 2 (resumed)
+Debug: 9198 796716 mips_m4k.c:1043 mips_m4k_read_memory(): address: 0xff300000, size: 0x00000004, count: 0x00000001
+Debug: 9199 796716 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 9200 796716 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 9201 796717 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:9
+Debug: 9202 796717 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9203 796717 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 9204 796717 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9205 796718 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 9206 796718 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9207 796719 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 9208 796719 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9209 796720 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 9210 796720 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9211 796721 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 9212 796721 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202000
+Debug: 9213 796721 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 9214 796721 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9215 796722 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 9216 796722 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9217 796723 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 9218 796723 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9219 796724 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 9220 796724 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9221 796725 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00034001
+Debug: 9222 796725 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 9223 796725 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9224 796726 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200220
+Debug: 9225 796726 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9226 796726 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200224
+Debug: 9227 796727 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9228 796727 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200228
+Debug: 9229 796728 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9230 796728 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20022c
+Debug: 9231 796728 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9232 796729 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200230
+Debug: 9233 796729 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9234 796730 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200234
+Debug: 9235 796730 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9236 796731 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200238
+Debug: 9237 796731 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9238 796732 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20023c
+Debug: 9239 796732 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9240 796733 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000010
+Debug: 9241 796733 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000009
+Debug: 9242 796733 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 9243 796733 target.c:2241 target_read_u32(): address: 0xff300000, value: 0x00034001
+Debug: 9244 796733 mips_ejtag.c:322 mips_ejtag_exit_debug(): exit debug
+Debug: 9245 796733 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 9246 796733 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 9247 796733 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:1
+Debug: 9248 796733 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9249 796734 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 9250 796734 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9251 796734 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9252 796735 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9253 796736 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9254 796736 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9255 796737 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9256 796738 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9257 796738 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9258 796739 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9259 796739 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9260 796740 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9261 796741 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9262 796741 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9263 796742 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9264 796743 mips32_pracc.c:293 mips32_pracc_exec(): ccccccccccccc
+Debug: 9265 796743 mips32_pracc.c:297 mips32_pracc_exec(): ejtag_info->pa_addr:0xff200200 0x4000c000
+Debug: 9266 796743 mips_m4k.c:652 mips_m4k_step(): target stepped 
+Debug: 9267 796743 mips_m4k.c:653 mips_m4k_step(): 9999999
+Debug: 9268 796743 mips_m4k.c:97 mips_m4k_debug_entry(): mips_m4k_debug_entry
+Debug: 9269 796743 mips32.c:257 mips32_save_context(): mips32_save_context
+Debug: 9270 796743 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 9271 796743 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 9272 796745 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:49
+Debug: 9273 796745 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9274 796745 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 9275 796745 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9276 796746 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 9277 796746 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9278 796747 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 9279 796747 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202008
+Debug: 9280 796747 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 9281 796747 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9282 796748 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 9283 796748 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20200c
+Debug: 9284 796748 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:2
+Debug: 9285 796748 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9286 796749 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 9287 796749 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202010
+Debug: 9288 796749 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:3
+Debug: 9289 796749 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9290 796750 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 9291 796750 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202014
+Debug: 9292 796750 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:4
+Debug: 9293 796750 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9294 796750 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 9295 796750 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202018
+Debug: 9296 796750 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:5
+Debug: 9297 796751 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9298 796751 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 9299 796751 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20201c
+Debug: 9300 796751 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:6
+Debug: 9301 796751 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9302 796752 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00000001
+Debug: 9303 796752 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:5
+Debug: 9304 796753 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9305 796753 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200220
+Debug: 9306 796753 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202020
+Debug: 9307 796753 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:6
+Debug: 9308 796753 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9309 796754 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200224
+Debug: 9310 796754 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202024
+Debug: 9311 796754 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:7
+Debug: 9312 796754 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9313 796755 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200228
+Debug: 9314 796755 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202028
+Debug: 9315 796755 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:8
+Debug: 9316 796755 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9317 796756 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20022c
+Debug: 9318 796756 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20202c
+Debug: 9319 796756 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:9
+Debug: 9320 796756 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9321 796757 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200230
+Debug: 9322 796757 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202030
+Debug: 9323 796757 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:10
+Debug: 9324 796757 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9325 796758 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200234
+Debug: 9326 796758 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202034
+Debug: 9327 796758 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:11
+Debug: 9328 796758 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9329 796759 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200238
+Debug: 9330 796759 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202038
+Debug: 9331 796759 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:12
+Debug: 9332 796759 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9333 796760 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20023c
+Debug: 9334 796760 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20203c
+Debug: 9335 796760 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:13
+Debug: 9336 796760 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9337 796761 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033e38
+Debug: 9338 796761 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:12
+Debug: 9339 796761 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9340 796762 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8040cfb0
+Debug: 9341 796762 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:11
+Debug: 9342 796762 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9343 796763 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200240
+Debug: 9344 796763 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202040
+Debug: 9345 796763 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:12
+Debug: 9346 796763 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9347 796764 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200244
+Debug: 9348 796764 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202044
+Debug: 9349 796764 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:13
+Debug: 9350 796764 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9351 796765 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200248
+Debug: 9352 796765 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202048
+Debug: 9353 796765 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:14
+Debug: 9354 796765 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9355 796766 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20024c
+Debug: 9356 796766 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20204c
+Debug: 9357 796766 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:15
+Debug: 9358 796766 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9359 796767 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200250
+Debug: 9360 796767 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202050
+Debug: 9361 796767 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:16
+Debug: 9362 796767 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9363 796767 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200254
+Debug: 9364 796767 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202054
+Debug: 9365 796767 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:17
+Debug: 9366 796768 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9367 796768 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200258
+Debug: 9368 796768 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202058
+Debug: 9369 796768 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:18
+Debug: 9370 796768 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9371 796769 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20025c
+Debug: 9372 796769 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20205c
+Debug: 9373 796769 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:19
+Debug: 9374 796769 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9375 796770 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8040d230
+Debug: 9376 796770 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:18
+Debug: 9377 796770 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9378 796772 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x03bf0000
+Debug: 9379 796772 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:17
+Debug: 9380 796772 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9381 796773 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200260
+Debug: 9382 796773 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202060
+Debug: 9383 796773 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:18
+Debug: 9384 796773 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9385 796773 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200264
+Debug: 9386 796773 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202064
+Debug: 9387 796773 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:19
+Debug: 9388 796774 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9389 796774 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200268
+Debug: 9390 796774 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202068
+Debug: 9391 796774 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:20
+Debug: 9392 796774 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9393 796775 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20026c
+Debug: 9394 796775 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20206c
+Debug: 9395 796775 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:21
+Debug: 9396 796775 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9397 796776 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200270
+Debug: 9398 796776 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202070
+Debug: 9399 796776 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:22
+Debug: 9400 796776 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9401 796777 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200274
+Debug: 9402 796777 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202074
+Debug: 9403 796777 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:23
+Debug: 9404 796777 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9405 796778 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200278
+Debug: 9406 796778 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202078
+Debug: 9407 796778 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:24
+Debug: 9408 796778 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9409 796779 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20027c
+Debug: 9410 796779 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20207c
+Debug: 9411 796779 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:25
+Debug: 9412 796779 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9413 796780 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xac000000
+Debug: 9414 796780 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:24
+Debug: 9415 796780 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9416 796781 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xfc000000
+Debug: 9417 796781 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:23
+Debug: 9418 796781 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9419 796782 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200280
+Debug: 9420 796782 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9421 796782 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200284
+Debug: 9422 796782 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202080
+Debug: 9423 796782 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:24
+Debug: 9424 796783 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9425 796783 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200288
+Debug: 9426 796783 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9427 796784 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20028c
+Debug: 9428 796784 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202084
+Debug: 9429 796784 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:25
+Debug: 9430 796784 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9431 796785 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200290
+Debug: 9432 796785 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9433 796786 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200294
+Debug: 9434 796786 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202088
+Debug: 9435 796786 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:26
+Debug: 9436 796786 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9437 796787 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200298
+Debug: 9438 796787 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9439 796788 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20029c
+Debug: 9440 796788 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff20208c
+Debug: 9441 796788 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:27
+Debug: 9442 796788 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9443 796789 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x03ff0000
+Debug: 9444 796789 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:26
+Debug: 9445 796789 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9446 796790 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xf8000000
+Debug: 9447 796790 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:25
+Debug: 9448 796790 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9449 796791 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a0
+Debug: 9450 796791 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9451 796792 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a4
+Debug: 9452 796792 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202090
+Debug: 9453 796792 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:26
+Debug: 9454 796792 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9455 796792 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002a8
+Debug: 9456 796793 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9457 796793 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002ac
+Debug: 9458 796793 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202094
+Debug: 9459 796793 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:27
+Debug: 9460 796794 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9461 796794 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b0
+Debug: 9462 796794 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9463 796795 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b4
+Debug: 9464 796795 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202004
+Debug: 9465 796795 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:28
+Debug: 9466 796795 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9467 796796 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002b8
+Debug: 9468 796796 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9469 796797 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002bc
+Debug: 9470 796797 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9471 796798 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x08000000
+Debug: 9472 796798 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:27
+Debug: 9473 796798 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9474 796799 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xac000000
+Debug: 9475 796799 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:26
+Debug: 9476 796799 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9477 796800 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c0
+Debug: 9478 796800 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9479 796801 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c4
+Debug: 9480 796801 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9481 796802 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002c8
+Debug: 9482 796802 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9483 796803 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002cc
+Debug: 9484 796803 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9485 796803 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d0
+Debug: 9486 796804 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9487 796804 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d4
+Debug: 9488 796804 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9489 796805 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002d8
+Debug: 9490 796805 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9491 796806 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff2002dc
+Debug: 9492 796806 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9493 796807 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x03bf0000
+Debug: 9494 796807 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:25
+Debug: 9495 796807 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9496 796808 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x03bd0000
+Debug: 9497 796808 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:24
+Debug: 9498 796808 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9499 796809 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000038
+Debug: 9500 796809 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000031
+Debug: 9501 796809 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9502 796810 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9503 796811 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9504 796811 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9505 796812 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9506 796813 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9507 796814 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9508 796815 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9509 796816 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xbc000000
+Debug: 9510 796816 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:23
+Debug: 9511 796816 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9512 796817 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8040cfb0
+Debug: 9513 796817 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:22
+Debug: 9514 796817 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9515 796818 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9516 796819 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9517 796820 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9518 796820 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9519 796821 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9520 796822 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9521 796823 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9522 796824 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9523 796825 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8040d230
+Debug: 9524 796825 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:21
+Debug: 9525 796825 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9526 796826 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033ccc
+Debug: 9527 796826 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:20
+Debug: 9528 796826 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9529 796827 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9530 796827 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9531 796828 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9532 796829 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9533 796830 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9534 796831 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9535 796832 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9536 796833 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9537 796834 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033cc8
+Debug: 9538 796834 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:19
+Debug: 9539 796834 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9540 796835 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00000001
+Debug: 9541 796835 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:18
+Debug: 9542 796835 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9543 796836 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9544 796837 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9545 796838 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9546 796839 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9547 796840 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9548 796841 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9549 796842 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9550 796843 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9551 796844 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80590000
+Debug: 9552 796844 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:17
+Debug: 9553 796844 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9554 796845 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80545b34
+Debug: 9555 796845 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:16
+Debug: 9556 796845 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9557 796846 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9558 796846 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9559 796847 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9560 796848 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9561 796849 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9562 796850 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9563 796851 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9564 796852 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9565 796853 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x807e2cd0
+Debug: 9566 796853 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:15
+Debug: 9567 796853 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9568 796854 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x24000000
+Debug: 9569 796854 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:14
+Debug: 9570 796854 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9571 796855 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80072990
+Debug: 9572 796855 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:13
+Debug: 9573 796855 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9574 796856 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033df8
+Debug: 9575 796856 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:12
+Debug: 9576 796856 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9577 796857 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033df8
+Debug: 9578 796857 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:11
+Debug: 9579 796857 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9580 796858 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9581 796859 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9582 796860 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9583 796860 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9584 796861 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9585 796862 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9586 796863 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9587 796864 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9588 796865 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c032000
+Debug: 9589 796865 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:10
+Debug: 9590 796865 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9591 796866 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033b90
+Debug: 9592 796867 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:9
+Debug: 9593 796867 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9594 796867 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8c033b90
+Debug: 9595 796867 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:8
+Debug: 9596 796868 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9597 796868 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9598 796869 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9599 796870 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9600 796871 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9601 796872 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9602 796872 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9603 796873 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9604 796874 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9605 796875 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x8005a5ac
+Debug: 9606 796875 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:7
+Debug: 9607 796875 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9608 796876 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x14001c00
+Debug: 9609 796876 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:6
+Debug: 9610 796876 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9611 796877 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9612 796878 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9613 796879 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9614 796880 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9615 796881 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9616 796882 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9617 796882 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9618 796883 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9619 796884 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00000011
+Debug: 9620 796884 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:5
+Debug: 9621 796884 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9622 796885 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00000009
+Debug: 9623 796885 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:4
+Debug: 9624 796885 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9625 796886 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9626 796887 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9627 796888 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9628 796889 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9629 796889 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9630 796890 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9631 796891 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9632 796892 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9633 796893 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x00000000
+Debug: 9634 796893 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:3
+Debug: 9635 796893 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9636 796894 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x08801000
+Debug: 9637 796894 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:2
+Debug: 9638 796894 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9639 796895 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9640 796896 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9641 796897 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9642 796898 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9643 796899 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9644 796900 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9645 796900 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9646 796901 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9647 796902 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80000044
+Debug: 9648 796902 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:1
+Debug: 9649 796902 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9650 796903 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80022764
+Debug: 9651 796904 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 9652 796904 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9653 796912 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 9654 796912 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 9655 796913 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 9656 796913 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:7
+Debug: 9657 796913 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9658 796913 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 9659 796914 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9660 796914 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 9661 796914 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9662 796915 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 9663 796915 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9664 796916 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 9665 796916 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9666 796917 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 9667 796917 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9668 796918 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 9669 796918 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9670 796919 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 9671 796919 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9672 796920 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 9673 796920 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9674 796921 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 9675 796921 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000007
+Debug: 9676 796921 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 9677 796921 mips_m4k.c:120 mips_m4k_debug_entry(): entered debug state at PC 0x80000044, target->state: halted, target->reason: 4 target->coreid: 0
+Debug: 9678 796921 target.c:1517 target_call_event_callbacks(): target event 0 (gdb-halt)
+Debug: 9679 796921 target.c:1517 target_call_event_callbacks(): target event 1 (halted)
+Debug: 9680 796921 target.c:1517 target_call_event_callbacks(): target event 6 (gdb-end)
+Debug: 9681 796922 gdb_server.c:2813 gdb_input_inner(): received packet: 'g'
+Debug: 9682 796922 mips32.c:240 mips32_get_gdb_reg_list(): mips32_get_gdb_reg_list
+Debug: 9683 796922 gdb_server.c:2813 gdb_input_inner(): received packet: 'z0,8000003c,4'
+Debug: 9684 796922 gdb_server.c:1586 gdb_breakpoint_watchpoint_packet(): -
+Debug: 9685 796922 breakpoints.c:349 breakpoint_remove(): breakpoint_remove target_id: 0
+Debug: 9686 796923 mips_m4k.c:801 mips_m4k_unset_breakpoint(): bpid: 1
+Debug: 9687 796923 mips_m4k.c:1043 mips_m4k_read_memory(): address: 0x8000003c, size: 0x00000004, count: 0x00000001
+Debug: 9688 796923 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 9689 796923 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 9690 796923 mips32_pracc.c:140 mips32_pracc_clean_text_jump(): clean_text_jumpi 0
+Debug: 9691 796925 mips32_pracc.c:140 mips32_pracc_clean_text_jump(): clean_text_jumpi 1
+Debug: 9692 796926 mips32_pracc.c:140 mips32_pracc_clean_text_jump(): clean_text_jumpi 2
+Debug: 9693 796927 mips32_pracc.c:140 mips32_pracc_clean_text_jump(): clean_text_jumpi 3
+Debug: 9694 796928 mips32_pracc.c:140 mips32_pracc_clean_text_jump(): clean_text_jumpi 4
+Debug: 9695 796929 mips32_pracc.c:140 mips32_pracc_clean_text_jump(): clean_text_jumpi 5
+Debug: 9696 796930 mips32_pracc.c:140 mips32_pracc_clean_text_jump(): clean_text_jumpi 6
+Debug: 9697 796931 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:9
+Debug: 9698 796931 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9699 796932 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 9700 796932 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9701 796933 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 9702 796933 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9703 796934 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 9704 796934 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9705 796935 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 9706 796935 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9707 796936 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 9708 796936 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202000
+Debug: 9709 796936 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 9710 796936 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9711 796937 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 9712 796937 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9713 796938 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 9714 796938 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9715 796939 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 9716 796939 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9717 796940 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x7000003f
+Debug: 9718 796940 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 9719 796940 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9720 796941 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200220
+Debug: 9721 796941 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9722 796942 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200224
+Debug: 9723 796942 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9724 796942 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200228
+Debug: 9725 796943 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9726 796943 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20022c
+Debug: 9727 796943 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9728 796944 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200230
+Debug: 9729 796944 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9730 796945 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200234
+Debug: 9731 796945 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9732 796946 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200238
+Debug: 9733 796946 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9734 796947 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20023c
+Debug: 9735 796947 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9736 796948 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000010
+Debug: 9737 796948 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000009
+Debug: 9738 796948 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 9739 796948 mips_m4k.c:1102 mips_m4k_write_memory(): address: 0x8000003c, size: 0x00000004, count: 0x00000001
+Debug: 9740 796948 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 9741 796948 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 9742 796948 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:8
+Debug: 9743 796948 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9744 796949 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 9745 796949 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9746 796950 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 9747 796950 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9748 796950 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 9749 796951 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9750 796951 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 9751 796951 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9752 796952 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 9753 796952 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9754 796953 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 9755 796953 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9756 796954 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 9757 796954 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9758 796955 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 9759 796955 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9760 796956 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 9761 796956 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000008
+Debug: 9762 796956 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 9763 796956 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 9764 796956 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 9765 796956 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:7
+Debug: 9766 796956 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9767 796957 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 9768 796957 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9769 796958 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 9770 796958 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9771 796959 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 9772 796959 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202000
+Debug: 9773 796959 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 9774 796959 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9775 796959 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 9776 796960 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9777 796960 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 9778 796960 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9779 796961 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 9780 796961 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9781 796962 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 9782 796962 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9783 796963 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 9784 796963 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9785 796964 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0x80000603
+Debug: 9786 796964 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 9787 796964 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9788 796965 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 9789 796965 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000007
+Debug: 9790 796965 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 9791 796965 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 9792 796965 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 9793 796965 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:7
+Debug: 9794 796965 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9795 796966 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 9796 796966 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9797 796967 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 9798 796967 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9799 796968 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 9800 796968 mips32_pracc.c:244 mips32_pracc_exec(): ****store_pending_address: 0xff202000
+Debug: 9801 796968 mips32_pracc.c:245 mips32_pracc_exec(): store_pending:1
+Debug: 9802 796968 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9803 796968 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 9804 796969 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9805 796969 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 9806 796969 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9807 796970 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 9808 796970 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9809 796972 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 9810 796972 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9811 796973 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 9812 796973 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9813 796974 mips32_pracc.c:217 mips32_pracc_exec(): qqqqqqqqq:0xbe6733db
+Debug: 9814 796974 mips32_pracc.c:219 mips32_pracc_exec():  -- store_pending:0
+Debug: 9815 796974 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9816 796975 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 9817 796975 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000007
+Debug: 9818 796975 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 9819 796975 mips32_pracc.c:342 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 9820 796975 mips32_pracc.c:186 mips32_pracc_exec(): aaaaaaaaaaaa
+Debug: 9821 796976 mips32_pracc.c:196 mips32_pracc_exec(): aaaaaa:8
+Debug: 9822 796976 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9823 796976 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200200
+Debug: 9824 796976 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9825 796977 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200204
+Debug: 9826 796977 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9827 796978 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200208
+Debug: 9828 796978 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9829 796979 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20020c
+Debug: 9830 796979 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9831 796980 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200210
+Debug: 9832 796980 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9833 796981 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200214
+Debug: 9834 796981 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9835 796981 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff200218
+Debug: 9836 796982 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9837 796982 mips32_pracc.c:229 mips32_pracc_exec(): -------------pc:0xff20021c
+Debug: 9838 796982 mips32_pracc.c:198 mips32_pracc_exec(): bbbbbbbbbbbb
+Debug: 9839 796983 mips32_pracc.c:222 mips32_pracc_exec(): AAAAAAAAAAAAA : 0x00000008
+Debug: 9840 796983 mips32_pracc.c:223 mips32_pracc_exec(): BBBBBBBBBBBBB : 0x00000008
+Debug: 9841 796983 mips32_pracc.c:272 mips32_pracc_exec(): sucess ==========
+Debug: 9842 796983 breakpoints.c:318 breakpoint_free(): free BPID: 1 --> 0
+Debug: 9843 885133 mips_m4k.c:236 mips_m4k_poll(): Reset Detected
+

@@ -1,0 +1,93 @@
+Debug: 439 86124 gdb_server.c:2812 gdb_input_inner(): received packet: 'qRcmd,726573756d652030783830303030303034'
+Debug: 440 86124 command.c:143 script_debug(): command - ocd_command ocd_command type ocd_resume 0x80000004
+Debug: 441 86124 command.c:143 script_debug(): command - resume ocd_resume 0x80000004
+Debug: 443 86125 target.c:1517 target_call_event_callbacks(): target event 3 (resume-start)
+Debug: 444 86125 mips_m4k.c:535 mips_m4k_resume(): mips_m4k_resume:: address:0x80000004 <<<< step3
+Debug: 445 86125 target.c:1899 target_free_all_working_areas_restore(): freeing all working areas
+Debug: 446 86125 mips32.c:277 mips32_restore_context(): mips32_restore_context
+Debug: 447 86125 mips32.c:230 mips32_write_core_reg(): write core reg 8 value 0x80000000
+Debug: 448 86125 mips32.c:230 mips32_write_core_reg(): write core reg 37 value 0x80000004
+Debug: 449 86125 mips32.c:230 mips32_write_core_reg(): write core reg 41 value 0x0
+Debug: 450 86125 mips32_pracc.c:917 mips32_pracc_write_regs(): depc::::::0x80000004
+Debug: 451 86125 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 452 86125 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:63
+Debug: 453 86182 breakpoints.c:390 breakpoint_find(): breakpoint_addr0x80000004 <<<< step3.0
+Debug: 454 86182 mips_m4k.c:502 mips_m4k_internal_restore(): unset breakpoint at 0x80000004
+Debug: 455 86182 mips_m4k.c:756 mips_m4k_unset_breakpoint(): bpid: 1
+Debug: 456 86182 mips_m4k.c:995 mips_m4k_read_memory(): address: 0x80000004, size: 0x00000004, count: 0x00000001
+Debug: 457 86182 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 458 86183 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:8
+Debug: 459 86217 mips_m4k.c:1054 mips_m4k_write_memory(): address: 0x80000004, size: 0x00000004, count: 0x00000001
+Debug: 460 86217 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 461 86218 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:8
+Debug: 462 86229 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 463 86230 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:7
+Debug: 464 86260 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 465 86261 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:7
+Debug: 466 86292 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 467 86293 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:6
+Debug: 468 86300 mips_m4k.c:411 mips_m4k_single_step_core(): 6666666 <<<< step3.2
+Debug: 469 86301 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 470 86301 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:6
+Debug: 471 86308 mips_m4k.c:995 mips_m4k_read_memory(): address: 0xff300000, size: 0x00000004, count: 0x00000001
+Debug: 472 86308 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 473 86309 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:8
+Debug: 474 86347 target.c:2240 target_read_u32(): address: 0xff300000, value: 0x00000000
+Debug: 475 86347 mips_ejtag.c:322 mips_ejtag_exit_debug(): exit debug <<<< step3.3
+Debug: 476 86347 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 477 86347 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:1
+Debug: 478 86359 mips32_pracc.c:306 mips32_pracc_exec(): ejtag_info->pa_addr:0xff200200 0x4004c008
+Debug: 479 86359 mips_m4k.c:97 mips_m4k_debug_entry(): mips_m4k_debug_entry
+Debug: 480 86359 mips32.c:257 mips32_save_context(): mips32_save_context <<<< step5()
+Debug: 481 86359 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 482 86360 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:49
+Debug: 483 86556 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 484 86557 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:7
+Debug: 485 86564 mips_m4k.c:120 mips_m4k_debug_entry(): entered debug state at PC 0x80000004, target->state: halted
+Debug: 486 86564 mips_m4k.c:637 mips_m4k_set_breakpoint(): mips_m4k_set_breakpoint <<<< step6(restore 80000004)
+Debug: 487 86565 mips_m4k.c:678 mips_m4k_set_breakpoint(): bpid: 1
+Debug: 488 86565 mips_m4k.c:995 mips_m4k_read_memory(): address: 0x80000004, size: 0x00000004, count: 0x00000001
+Debug: 489 86565 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 490 86565 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:8
+Debug: 491 86591 target.c:2328 target_write_u32(): address: 0x80000004, value: 0x7000003f
+Debug: 492 86592 mips_m4k.c:1054 mips_m4k_write_memory(): address: 0x80000004, size: 0x00000004, count: 0x00000001
+Debug: 493 86592 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 494 86592 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:8
+Debug: 495 86599 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 496 86600 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:7
+Debug: 497 86623 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 498 86623 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:7
+Debug: 500 86651 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 501 86652 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:6
+Debug: 502 86661 mips_m4k.c:995 mips_m4k_read_memory(): address: 0x80000004, size: 0x00000004, count: 0x00000001
+Debug: 503 86661 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 504 86662 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:8
+Debug: 505 86682 target.c:2240 target_read_u32(): address: 0x80000004, value: 0x7000003f
+Debug: 506 86683 mips_m4k.c:995 mips_m4k_read_memory(): address: 0xff300000, size: 0x00000004, count: 0x00000001
+Debug: 507 86683 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 508 86683 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:8
+Debug: 509 86719 target.c:2240 target_read_u32(): address: 0xff300000, value: 0x00000000
+Debug: 510 86719 target.c:2328 target_write_u32(): address: 0xff300000, value: 0x00000010
+Debug: 511 86719 mips_m4k.c:1054 mips_m4k_write_memory(): address: 0xff300000, size: 0x00000004, count: 0x00000001
+Debug: 512 86719 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 513 86720 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:8
+Debug: 514 86729 mips_ejtag.c:322 mips_ejtag_exit_debug(): exit debug
+Debug: 515 86729 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 516 86730 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:1
+Debug: 517 86739 mips32_pracc.c:306 mips32_pracc_exec(): ejtag_info->pa_addr:0xff20021c 0x4000c000
+Debug: 518 86739 target.c:1517 target_call_event_callbacks(): target event 2 (resumed)
+Debug: 519 86739 mips_m4k.c:522 mips_m4k_internal_restore(): target resumed at 0x80000004
+Debug: 520 86739 target.c:1517 target_call_event_callbacks(): target event 4 (resume-end)
+Debug: 521 86840 mips_m4k.c:247 mips_m4k_poll(): 8888888
+Debug: 522 86840 mips_m4k.c:97 mips_m4k_debug_entry(): mips_m4k_debug_entry
+Debug: 523 86840 mips32.c:257 mips32_save_context(): mips32_save_context
+Debug: 524 86840 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 525 86841 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:49
+Debug: 526 87035 mips32_pracc.c:357 mips32_pracc_queue_exec(): Go to mips32_pracc_exec beause ejtag_info->mode is 0
+Debug: 527 87035 mips32_pracc.c:222 mips32_pracc_exec(): aaaaaa:7
+Debug: 528 87043 mips_m4k.c:120 mips_m4k_debug_entry(): entered debug state at PC 0x80000004, target->state: halted
+Debug: 529 87043 target.c:1517 target_call_event_callbacks(): target event 0 (gdb-halt)
+Debug: 530 87043 target.c:1517 target_call_event_callbacks(): target event 1 (halted)
+User : 531 87043 mips32.c:302 mips32_arch_state(): target halted in MIPS32 mode due to target-not-halted, pc: 0x80000004
+Debug: 532 87043 target.c:1517 target_call_event_callbacks(): target event 6 (gdb-end)
+

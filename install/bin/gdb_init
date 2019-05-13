@@ -1,0 +1,5 @@
+target remote localhost:3333
+monitor sleep 500
+monitor halt
+monitor sleep 500
+load

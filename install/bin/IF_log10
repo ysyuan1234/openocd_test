@@ -1,0 +1,848 @@
+Debug: 2074 6391 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2075 6391 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qSupported:multiprocess+;qRelocInsn+'
+Debug: 2077 6391 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2078 6391 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'QStartNoAckMode'
+Debug: 2079 6391 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2081 6391 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hg0'
+Debug: 2082 6391 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2083 6391 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qXfer:features:read:target.xml:0,fff'
+Debug: 2085 6391 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2086 6391 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qXfer:features:read:target.xml:fff,1000'
+Debug: 2087 6392 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2088 6392 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qTStatus'
+Debug: 2089 6393 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2090 6393 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'?'
+Debug: 2092 6393 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2093 6393 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qXfer:threads:read::0,fff'
+Debug: 2094 6393 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2095 6393 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hc-1'
+Debug: 2096 6393 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2097 6393 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qC'
+Debug: 2098 6393 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2099 6393 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qAttached'
+Debug: 2100 6393 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2101 6393 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qOffsets'
+Debug: 2102 6393 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2103 6393 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'g'
+Debug: 2105 6393 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2106 6393 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m0,4'
+Debug: 2121 6394 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2122 6394 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qSymbol::'
+Debug: 2123 6394 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 2124 6394 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qRcmd,736c6565702031303030'
+Debug: 12350 7399 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 12351 7399 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qRcmd,736c6565702031303030'
+Debug: 22493 8406 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22494 8406 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m0,4'
+Debug: 22509 8406 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22510 8406 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m0,4'
+Debug: 22525 8406 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22526 8406 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qRcmd,72657365742068616c74'
+Debug: 22781 10118 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22782 10118 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qXfer:threads:read::0,fff'
+Debug: 22783 10124 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22784 10124 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000060,4'
+Debug: 22799 10124 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22800 10124 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000064,4'
+Debug: 22815 10135 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22816 10135 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000134,4'
+Debug: 22859 10137 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22860 10137 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000138,4'
+Debug: 22875 10138 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22876 10138 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000100,4'
+Debug: 22891 10138 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22892 10138 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000104,4'
+Debug: 22907 10140 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22908 10140 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800100bc,4'
+Debug: 22923 10140 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22924 10140 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800100c0,4'
+Debug: 22939 10141 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22940 10141 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000130,4'
+Debug: 22955 10141 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22956 10141 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000134,4'
+Debug: 22971 10142 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22972 10143 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000110,4'
+Debug: 22987 10143 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 22988 10143 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000114,4'
+Debug: 23003 10144 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 23004 10144 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8001000c,4'
+Debug: 23019 10144 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 23020 10144 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80010010,4'
+Debug: 23035 10146 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 23036 10146 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000ac,4'
+Debug: 23051 10146 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 23052 10146 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000b0,4'
+Debug: 23067 10151 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 23068 10151 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000ec,4'
+Debug: 23083 10151 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 23084 10152 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000f0,4'
+Debug: 23099 10152 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 23100 10152 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000f8,4'
+Debug: 23115 10152 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 23116 10153 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000fc,4'
+Debug: 23187 10434 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 23188 10434 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m0,40'
+Debug: 23203 10435 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 1
+Debug: 23204 10435 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m40,40'
+Debug: 31416 25355 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 31417 25355 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qRcmd,74617267657473'
+Debug: 34989 32003 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 34990 32003 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qRcmd,627020307838303038666537632034206877'
+Debug: 36732 34635 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 36733 34635 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qRcmd,726573756d65'
+Debug: 146636 262364 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 146637 262364 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qRcmd,74617267657473'
+Debug: 147563 263908 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 147564 263909 gdb_server.c:2831 gdb_input_inner(): [IF-CMD-BUF]'Xffffffff80000000,0:<binary-data>'
+Debug: 147565 263909 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 147566 263909 gdb_server.c:2831 gdb_input_inner(): [IF-CMD-BUF]'X80000000,148:<binary-data>'
+Debug: 148526 264085 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 148527 264085 gdb_server.c:2831 gdb_input_inner(): [IF-CMD-BUF]'X8000fe7c,10:<binary-data>'
+Debug: 148719 264118 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 148720 264118 gdb_server.c:2831 gdb_input_inner(): [IF-CMD-BUF]'X80010000,15c:<binary-data>'
+Debug: 149728 264305 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 149729 264305 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'P25=00000080'
+Debug: 149793 264307 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 149794 264307 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000060,4'
+Debug: 149869 264317 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 149870 264317 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000134,4'
+Debug: 149945 264326 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 149946 264326 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000100,4'
+Debug: 150021 264336 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 150022 264336 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800100bc,4'
+Debug: 150097 264345 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 150098 264345 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000130,4'
+Debug: 150173 264355 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 150174 264355 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000110,4'
+Debug: 150249 264364 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 150250 264364 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8001000c,4'
+Debug: 150325 264373 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 150326 264373 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000ac,4'
+Debug: 150401 264383 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 150402 264383 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000ec,4'
+Debug: 150477 264394 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 150478 264394 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000f8,4'
+Debug: 150607 264409 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 150608 264409 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000000,4'
+Debug: 151601 266233 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 151602 266233 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000000,4'
+Debug: 151677 266245 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 151678 266245 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000064,4'
+Debug: 151955 266285 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 151956 266285 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000b0,4'
+Debug: 152233 266325 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 152234 266325 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000f0,4'
+Debug: 152511 266364 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 152512 266364 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000fc,4'
+Debug: 152789 266404 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 152790 266404 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000104,4'
+Debug: 153121 266450 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 153122 266450 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000114,4'
+Debug: 153399 266488 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 153400 266488 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000134,4'
+Debug: 153677 266533 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 153678 266533 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000138,4'
+Debug: 154009 266584 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 154010 266584 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80010010,4'
+Debug: 154287 266632 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 154288 266632 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800100c0,4'
+Debug: 154565 266678 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 154566 266678 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'vCont?'
+Debug: 154567 266678 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 154568 266678 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hc0'
+Debug: 154569 266678 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 154570 266678 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'c'
+Debug: 156458 267020 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 156459 267020 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'g'
+Debug: 156461 267020 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 156462 267020 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000064,4'
+Debug: 157382 267185 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 157383 267185 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000000,4'
+Debug: 157512 267200 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 157513 267200 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000004,4'
+Debug: 157588 267210 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 157589 267210 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000008,4'
+Debug: 157664 267220 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 157665 267220 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000000c,4'
+Debug: 157740 267230 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 157741 267230 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000010,4'
+Debug: 157816 267241 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 157817 267241 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000014,4'
+Debug: 157892 267252 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 157893 267252 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000018,4'
+Debug: 157968 267262 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 157969 267262 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000001c,4'
+Debug: 158044 267273 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158045 267273 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000020,4'
+Debug: 158120 267284 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158121 267284 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000024,4'
+Debug: 158196 267294 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158197 267294 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000028,4'
+Debug: 158326 267307 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158327 267307 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000002c,4'
+Debug: 158402 267317 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158403 267317 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000030,4'
+Debug: 158478 267328 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158479 267328 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000034,4'
+Debug: 158554 267338 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158555 267338 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000038,4'
+Debug: 158630 267348 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158631 267348 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000003c,4'
+Debug: 158706 267359 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158707 267359 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000040,4'
+Debug: 158782 267371 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158783 267371 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000044,4'
+Debug: 158858 267381 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158859 267381 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000048,4'
+Debug: 158934 267392 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 158935 267392 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000004c,4'
+Debug: 159010 267402 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 159011 267402 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000050,4'
+Debug: 159140 267415 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 159141 267415 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000054,4'
+Debug: 159216 267426 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 159217 267426 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000058,4'
+Debug: 159292 267436 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 159293 267436 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000005c,4'
+Debug: 159368 267447 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 159369 267447 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000060,4'
+Debug: 159444 267458 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 159445 267458 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000064,4'
+Debug: 159698 267493 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 159699 267493 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000b0,4'
+Debug: 160006 267531 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 160007 267531 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000f0,4'
+Debug: 160260 267566 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 160261 267566 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000fc,4'
+Debug: 160514 267601 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 160515 267601 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000104,4'
+Debug: 160822 267637 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 160823 267637 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000114,4'
+Debug: 161076 267669 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 161077 267669 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000134,4'
+Debug: 161330 267700 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 161331 267700 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000138,4'
+Debug: 161638 267738 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 161639 267738 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80010010,4'
+Debug: 161892 267775 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 161893 267775 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800100c0,4'
+Debug: 162146 267814 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 162147 267814 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qXfer:threads:read::0,fff'
+Debug: 162310 268218 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 162311 268218 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000040,40'
+Debug: 162613 268270 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 162614 268270 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000080,40'
+Debug: 162916 268322 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 162917 268322 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000c0,40'
+Debug: 163489 268817 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 163490 268817 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000b0,4'
+Debug: 163767 268858 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 163768 268858 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000f0,4'
+Debug: 164045 268897 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 164046 268897 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000fc,4'
+Debug: 164323 268936 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 164324 268936 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000104,4'
+Debug: 164601 268976 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 164602 268976 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000114,4'
+Debug: 164879 269016 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 164880 269016 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000134,4'
+Debug: 165157 269056 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 165158 269056 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000138,4'
+Debug: 165435 269096 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 165436 269096 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80010010,4'
+Debug: 165713 269135 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 165714 269135 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800100c0,4'
+Debug: 165991 269175 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 165992 269175 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hc0'
+Debug: 165993 269176 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 165994 269176 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'s'
+Debug: 168594 269628 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 168595 269628 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'g'
+Debug: 168597 269628 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 168598 269628 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000068,4'
+Debug: 168673 269638 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 168674 269638 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000000,4'
+Debug: 168749 269647 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 168750 269647 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000004,4'
+Debug: 168825 269657 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 168826 269657 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000008,4'
+Debug: 168901 269667 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 168902 269667 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000000c,4'
+Debug: 168977 269676 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 168978 269676 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000010,4'
+Debug: 169053 269686 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169054 269686 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000014,4'
+Debug: 169129 269695 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169130 269695 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000018,4'
+Debug: 169205 269705 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169206 269705 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000001c,4'
+Debug: 169281 269714 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169282 269714 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000020,4'
+Debug: 169357 269724 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169358 269724 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000024,4'
+Debug: 169433 269734 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169434 269734 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000028,4'
+Debug: 169509 269743 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169510 269743 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000002c,4'
+Debug: 169585 269753 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169586 269753 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000030,4'
+Debug: 169661 269762 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169662 269762 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000034,4'
+Debug: 169737 269772 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169738 269772 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000038,4'
+Debug: 169813 269782 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169814 269782 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000003c,4'
+Debug: 169889 269791 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169890 269791 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000040,4'
+Debug: 169965 269801 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 169966 269801 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000044,4'
+Debug: 170041 269811 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 170042 269811 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000048,4'
+Debug: 170117 269820 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 170118 269820 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000004c,4'
+Debug: 170193 269830 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 170194 269830 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000050,4'
+Debug: 170269 269839 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 170270 269839 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000054,4'
+Debug: 170345 269849 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 170346 269849 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000058,4'
+Debug: 170421 269858 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 170422 269858 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000005c,4'
+Debug: 170497 269868 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 170498 269868 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000060,4'
+Debug: 170573 269878 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 170574 269878 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000064,4'
+Debug: 170649 269889 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 170650 269889 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000068,4'
+Debug: 170725 269898 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 170726 269898 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000064,4'
+Debug: 171003 269938 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 171004 269938 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hc0'
+Debug: 171005 269938 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 171006 269938 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'c'
+Debug: 172857 270229 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 172858 270229 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'g'
+Debug: 172860 270229 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 172861 270229 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000b0,4'
+Debug: 172952 270247 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 172953 270247 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000000,4'
+Debug: 173044 270265 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 173045 270265 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000004,4'
+Debug: 173136 270282 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 173137 270282 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000008,4'
+Debug: 173228 270300 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 173229 270300 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000000c,4'
+Debug: 173320 270317 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 173321 270317 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000010,4'
+Debug: 173412 270335 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 173413 270335 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000014,4'
+Debug: 173504 270352 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 173505 270352 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000018,4'
+Debug: 173596 270370 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 173597 270370 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000001c,4'
+Debug: 173688 270387 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 173689 270387 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000020,4'
+Debug: 173780 270405 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 173781 270405 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000024,4'
+Debug: 173872 270423 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 173873 270423 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000028,4'
+Debug: 173964 270441 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 173965 270441 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000002c,4'
+Debug: 174056 270459 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 174057 270459 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000030,4'
+Debug: 174148 270477 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 174149 270477 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000034,4'
+Debug: 174240 270496 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 174241 270496 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000038,4'
+Debug: 174332 270515 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 174333 270515 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000003c,4'
+Debug: 174424 270532 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 174425 270532 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000040,4'
+Debug: 174516 270550 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 174517 270550 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000044,4'
+Debug: 174608 270567 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 174609 270567 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000048,4'
+Debug: 174700 270585 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 174701 270585 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000004c,4'
+Debug: 174792 270603 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 174793 270603 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000050,4'
+Debug: 174884 270620 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 174885 270620 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000054,4'
+Debug: 174976 270638 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 174977 270638 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000058,4'
+Debug: 175068 270655 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 175069 270655 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000005c,4'
+Debug: 175160 270673 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 175161 270673 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000060,4'
+Debug: 175252 270690 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 175253 270690 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000064,4'
+Debug: 175344 270708 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 175345 270708 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000068,4'
+Debug: 175436 270725 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 175437 270725 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000006c,4'
+Debug: 175528 270743 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 175529 270743 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000070,4'
+Debug: 175620 270760 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 175621 270760 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000074,4'
+Debug: 175712 270778 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 175713 270778 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000078,4'
+Debug: 175804 270795 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 175805 270795 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000007c,4'
+Debug: 175896 270813 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 175897 270813 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000080,4'
+Debug: 175988 270830 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 175989 270830 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000084,4'
+Debug: 176080 270848 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 176081 270848 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000088,4'
+Debug: 176172 270866 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 176173 270866 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000008c,4'
+Debug: 176264 270883 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 176265 270883 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000090,4'
+Debug: 176356 270900 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 176357 270900 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000094,4'
+Debug: 176448 270918 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 176449 270918 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000098,4'
+Debug: 176540 270935 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 176541 270935 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000009c,4'
+Debug: 176632 270953 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 176633 270953 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000a0,4'
+Debug: 176724 270970 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 176725 270970 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000a4,4'
+Debug: 176816 270988 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 176817 270988 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000a8,4'
+Debug: 176908 271005 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 176909 271005 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000ac,4'
+Debug: 177000 271022 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 177001 271022 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000064,4'
+Debug: 177129 271042 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 177130 271042 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000b0,4'
+Debug: 177258 271062 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 177259 271062 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000f0,4'
+Debug: 177387 271084 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 177388 271084 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000fc,4'
+Debug: 177516 271106 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 177517 271106 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000104,4'
+Debug: 177645 271126 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 177646 271126 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000114,4'
+Debug: 177774 271146 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 177775 271146 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000134,4'
+Debug: 177903 271166 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 177904 271166 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000138,4'
+Debug: 178032 271186 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 178033 271186 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80010010,4'
+Debug: 178161 271206 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 178162 271206 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800100c0,4'
+Debug: 179135 271370 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 179136 271370 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qXfer:threads:read::0,fff'
+Debug: 179245 271577 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 179246 271577 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000080,40'
+Debug: 179612 271647 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 179613 271648 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000c0,40'
+Debug: 179979 271716 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 179980 271716 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000100,40'
+Debug: 180454 271938 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 180455 271938 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000064,4'
+Debug: 180695 271988 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 180696 271988 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000f0,4'
+Debug: 180936 272033 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 180937 272033 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000fc,4'
+Debug: 181177 272080 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 181178 272080 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000104,4'
+Debug: 181418 272125 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 181419 272125 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000114,4'
+Debug: 181659 272170 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 181660 272170 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000134,4'
+Debug: 181900 272216 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 181901 272216 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000138,4'
+Debug: 182141 272261 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 182142 272261 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80010010,4'
+Debug: 182382 272306 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 182383 272306 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800100c0,4'
+Debug: 182623 272351 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 182624 272351 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hc0'
+Debug: 182625 272351 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 182626 272351 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'s'
+Debug: 185202 272851 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 185203 272851 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'g'
+Debug: 185259 272855 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 185260 272855 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000b4,4'
+Debug: 185351 272876 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 185352 272876 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000000,4'
+Debug: 185443 272897 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 185444 272897 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000004,4'
+Debug: 185535 272917 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 185536 272917 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000008,4'
+Debug: 185627 272938 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 185628 272938 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000000c,4'
+Debug: 185773 272962 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 185774 272962 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000010,4'
+Debug: 185865 272981 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 185866 272982 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000014,4'
+Debug: 185957 273000 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 185958 273000 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000018,4'
+Debug: 186049 273019 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 186050 273019 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000001c,4'
+Debug: 186141 273037 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 186142 273037 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000020,4'
+Debug: 186233 273054 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 186234 273054 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000024,4'
+Debug: 186325 273072 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 186326 273072 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000028,4'
+Debug: 186417 273090 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 186418 273090 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000002c,4'
+Debug: 186509 273109 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 186510 273109 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000030,4'
+Debug: 186601 273127 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 186602 273127 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000034,4'
+Debug: 186693 273156 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 186694 273156 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000038,4'
+Debug: 186839 273183 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 186840 273183 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000003c,4'
+Debug: 186931 273203 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 186932 273203 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000040,4'
+Debug: 187023 273223 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 187024 273223 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000044,4'
+Debug: 187115 273243 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 187116 273243 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000048,4'
+Debug: 187207 273262 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 187208 273262 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000004c,4'
+Debug: 187353 273284 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 187354 273284 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000050,4'
+Debug: 187445 273302 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 187446 273302 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000054,4'
+Debug: 187537 273319 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 187538 273319 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000058,4'
+Debug: 187629 273337 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 187630 273337 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000005c,4'
+Debug: 187721 273355 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 187722 273355 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000060,4'
+Debug: 187813 273375 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 187814 273375 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000064,4'
+Debug: 187959 273398 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 187960 273398 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000068,4'
+Debug: 188051 273420 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 188052 273420 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000006c,4'
+Debug: 188143 273441 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 188144 273441 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000070,4'
+Debug: 188235 273464 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 188236 273464 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000074,4'
+Debug: 188327 273488 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 188328 273488 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000078,4'
+Debug: 188473 273513 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 188474 273513 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000007c,4'
+Debug: 188565 273535 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 188566 273535 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000080,4'
+Debug: 188657 273556 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 188658 273556 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000084,4'
+Debug: 188749 273578 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 188750 273578 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000088,4'
+Debug: 188841 273598 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 188842 273598 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000008c,4'
+Debug: 188987 273622 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 188988 273622 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000090,4'
+Debug: 189079 273643 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 189080 273643 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000094,4'
+Debug: 189171 273665 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 189172 273665 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000098,4'
+Debug: 189263 273686 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 189264 273686 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m8000009c,4'
+Debug: 189355 273707 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 189356 273707 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000a0,4'
+Debug: 189501 273732 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 189502 273732 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000a4,4'
+Debug: 189593 273753 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 189594 273753 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000a8,4'
+Debug: 189685 273773 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 189686 273773 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000ac,4'
+Debug: 189777 273793 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 189778 273793 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000b0,4'
+Debug: 189869 273813 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 189870 273813 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000b4,4'
+Debug: 190015 273835 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 190016 273835 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000b0,4'
+Debug: 190256 273886 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 190257 273886 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hc0'
+Debug: 190258 273886 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 190259 273886 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'c'
+Debug: 192038 274183 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 192039 274183 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'g'
+Debug: 192041 274183 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 192042 274183 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000f0,4'
+Debug: 192133 274200 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 192134 274200 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000e4,4'
+Debug: 192225 274218 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 192226 274218 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000e8,4'
+Debug: 192317 274236 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 192318 274236 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000ec,4'
+Debug: 192409 274253 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 192410 274253 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000064,4'
+Debug: 192610 274283 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 192611 274283 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000b0,4'
+Debug: 192811 274314 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 192812 274314 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000f0,4'
+Debug: 193012 274344 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 193013 274344 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000fc,4'
+Debug: 193213 274374 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 193214 274374 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000104,4'
+Debug: 193414 274405 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 193415 274405 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000114,4'
+Debug: 193615 274435 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 193616 274435 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000134,4'
+Debug: 193816 274465 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 193817 274465 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000138,4'
+Debug: 194862 274646 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 194863 274646 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80010010,4'
+Debug: 195117 274682 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 195118 274682 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800100c0,4'
+Debug: 195318 274715 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 195319 274715 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qXfer:threads:read::0,fff'
+Debug: 195374 274859 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 195375 274860 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000c0,40'
+Debug: 195741 274929 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 195742 274929 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000100,40'
+Debug: 196108 274998 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 196109 274998 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000140,40'
+Debug: 196583 275216 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 196584 275216 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000180,40'
+Debug: 197922 277060 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 197923 277060 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000064,4'
+Debug: 198163 277106 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 198164 277106 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000b0,4'
+Debug: 198404 277152 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 198405 277152 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000fc,4'
+Debug: 198645 277198 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 198646 277198 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000104,4'
+Debug: 198940 277253 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 198941 277253 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000114,4'
+Debug: 199181 277307 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 199182 277307 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000134,4'
+Debug: 199422 277357 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 199423 277357 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000138,4'
+Debug: 199663 277406 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 199664 277406 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80010010,4'
+Debug: 199904 277461 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 199905 277461 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800100c0,4'
+Debug: 200145 277514 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 200146 277514 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hc0'
+Debug: 200147 277514 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 200148 277514 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'s'
+Debug: 202708 277992 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 202709 277992 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'g'
+Debug: 202711 277992 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 202712 277992 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000f8,4'
+Debug: 202803 278013 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 202804 278013 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000f8,4'
+Debug: 202895 278034 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 202896 278034 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000f0,4'
+Debug: 203136 278088 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 203137 278088 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hc0'
+Debug: 203138 278088 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 203139 278088 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'c'
+Debug: 204974 278407 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 204975 278407 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'g'
+Debug: 204977 278407 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 204978 278407 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000fc,4'
+Debug: 205069 278426 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 205070 278426 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000f8,4'
+Debug: 205161 278446 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 205162 278446 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000064,4'
+Debug: 205362 278480 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 205363 278480 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000b0,4'
+Debug: 205563 278513 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 205564 278513 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000f0,4'
+Debug: 205764 278546 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 205765 278546 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000fc,4'
+Debug: 205965 278578 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 205966 278578 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000104,4'
+Debug: 206166 278609 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 206167 278609 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000114,4'
+Debug: 206367 278642 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 206368 278642 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000134,4'
+Debug: 206568 278674 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 206569 278674 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000138,4'
+Debug: 206769 278707 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 206770 278707 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80010010,4'
+Debug: 206970 278739 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 206971 278739 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800100c0,4'
+Debug: 208016 278923 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 208017 278923 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qXfer:threads:read::0,fff'
+Debug: 208126 279041 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 208127 279041 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000c0,40'
+Debug: 208493 279124 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 208494 279124 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000100,40'
+Debug: 208860 279205 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 208861 279205 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000140,40'
+Debug: 209335 279396 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 209336 279396 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000180,40'
+Debug: 211754 283451 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 211755 283451 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qRcmd,74617267657473'
+Debug: 218297 295750 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 218298 295750 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Jc1'
+Debug: 218300 295750 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 218301 295750 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Jc-1'
+Debug: 267227 390184 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 267228 390184 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000064,4'
+Debug: 267468 390237 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 267469 390237 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000b0,4'
+Debug: 267709 390290 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 267710 390290 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000f0,4'
+Debug: 267950 390344 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 267951 390344 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000104,4'
+Debug: 268191 390393 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 268192 390393 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000114,4'
+Debug: 268432 390441 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 268433 390441 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000134,4'
+Debug: 268673 390490 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 268674 390490 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000138,4'
+Debug: 268914 390539 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 268915 390539 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80010010,4'
+Debug: 269155 390588 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 269156 390588 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800100c0,4'
+Debug: 269396 390636 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 269397 390636 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hc0'
+Debug: 269398 390636 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 269399 390636 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'s'
+Debug: 271943 391104 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 271944 391104 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'g'
+Debug: 271946 391104 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 271947 391104 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000100,4'
+Debug: 272038 391124 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 272039 391124 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000f8,4'
+Debug: 272130 391144 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 272131 391144 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000fc,4'
+Debug: 272222 391164 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 272223 391164 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000100,4'
+Debug: 272314 391182 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 272315 391182 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000064,4'
+Debug: 272515 391217 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 272516 391217 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000b0,4'
+Debug: 272716 391253 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 272717 391253 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000f0,4'
+Debug: 272917 391289 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 272918 391289 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000104,4'
+Debug: 273118 391325 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 273119 391325 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000114,4'
+Debug: 273319 391360 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 273320 391360 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000134,4'
+Debug: 273520 391396 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 273521 391396 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000138,4'
+Debug: 273721 391432 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 273722 391432 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80010010,4'
+Debug: 273922 391467 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 273923 391467 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800100c0,4'
+Debug: 274177 391504 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 274178 391504 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qXfer:threads:read::0,fff'
+Debug: 275421 393981 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 275422 393981 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000100,4'
+Debug: 275567 394005 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 275568 394005 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000064,4'
+Debug: 275808 394050 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 275809 394050 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000b0,4'
+Debug: 276049 394096 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 276050 394096 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000f0,4'
+Debug: 276344 394144 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 276345 394144 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000fc,4'
+Debug: 276585 394193 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 276586 394193 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000104,4'
+Debug: 276826 394246 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 276827 394246 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000114,4'
+Debug: 277067 394296 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 277068 394296 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000134,4'
+Debug: 277308 394346 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 277309 394346 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000138,4'
+Debug: 277549 394392 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 277550 394393 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80010010,4'
+Debug: 277790 394437 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 277791 394437 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800100c0,4'
+Debug: 278031 394484 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 278032 394484 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hc0'
+Debug: 278033 394484 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 278034 394484 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'s'
+Debug: 280534 394929 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 280535 394929 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'g'
+Debug: 280537 394930 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 280538 394930 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000104,4'
+Debug: 280629 394950 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 280630 394950 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000f8,4'
+Debug: 280721 394970 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 280722 394970 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000fc,4'
+Debug: 280813 394990 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 280814 394990 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000100,4'
+Debug: 280905 395010 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 280906 395010 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000064,4'
+Debug: 281106 395043 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 281107 395043 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000b0,4'
+Debug: 281307 395079 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 281308 395079 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000f0,4'
+Debug: 281508 395111 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 281509 395111 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000fc,4'
+Debug: 281709 395140 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 281710 395140 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000104,4'
+Debug: 281910 395170 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 281911 395170 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000114,4'
+Debug: 282111 395203 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 282112 395203 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000134,4'
+Debug: 282312 395238 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 282313 395238 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000138,4'
+Debug: 282513 395274 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 282514 395274 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80010010,4'
+Debug: 282714 395310 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 282715 395310 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800100c0,4'
+Debug: 282969 395348 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 282970 395348 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qXfer:threads:read::0,fff'
+Debug: 283673 396756 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 283674 396756 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000064,4'
+Debug: 283914 396806 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 283915 396806 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000b0,4'
+Debug: 284209 396858 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 284210 396858 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000f0,4'
+Debug: 284450 396903 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 284451 396903 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800000fc,4'
+Debug: 284691 396950 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 284692 396950 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000114,4'
+Debug: 284986 396997 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 284987 396997 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000134,4'
+Debug: 285227 397042 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 285228 397042 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80000138,4'
+Debug: 285468 397088 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 285469 397088 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,80010010,4'
+Debug: 285763 397136 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 285764 397136 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Z0,800100c0,4'
+Debug: 286004 397181 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 286005 397181 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'Hc0'
+Debug: 286006 397181 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 286007 397181 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'s'
+Debug: 288507 397627 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 288508 397627 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'g'
+Debug: 288510 397627 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 288511 397627 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000108,4'
+Debug: 288602 397646 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 288603 397646 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000f8,4'
+Debug: 288694 397665 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 288695 397665 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m800000fc,4'
+Debug: 288786 397683 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 288787 397683 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000100,4'
+Debug: 288878 397705 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 288879 397705 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000104,4'
+Debug: 289024 397732 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 289025 397732 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'m80000108,4'
+Debug: 289116 397751 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 289117 397751 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000064,4'
+Debug: 289317 397783 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 289318 397783 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000b0,4'
+Debug: 289518 397817 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 289519 397817 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000f0,4'
+Debug: 289773 397852 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 289774 397852 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800000fc,4'
+Debug: 289974 397884 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 289975 397884 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000114,4'
+Debug: 290175 397919 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 290176 397919 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000134,4'
+Debug: 290376 397953 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 290377 397953 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80000138,4'
+Debug: 290577 397989 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 290578 397989 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,80010010,4'
+Debug: 290778 398025 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 290779 398025 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'z0,800100c0,4'
+Debug: 291033 398064 gdb_server.c:2801 gdb_input_inner(): [IF-CMD]connection_target_coreid: 0
+Debug: 291034 398064 gdb_server.c:2834 gdb_input_inner(): [IF-CMD-PKT]'qXfer:threads:read::0,fff'
